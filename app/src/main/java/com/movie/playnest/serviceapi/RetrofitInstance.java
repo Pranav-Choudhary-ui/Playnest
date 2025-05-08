@@ -3,7 +3,7 @@ package com.movie.playnest.serviceapi;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public interface RetrofitInstance {
+public class RetrofitInstance {
 
     private static Retrofit retrofit = null;
     private static String BASE_URL = "https://api.themoviedb.org/3/";
