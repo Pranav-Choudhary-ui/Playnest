@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="10dp"
     android:elevation="20dp"
-    app:cardBackgroundColor="@color/black"
+    app:cardBackgroundColor="@color/white"
     android:layout_margin="8dp">
 
 
@@ -22,12 +22,12 @@
             android:background=""
             android:contentDescription="Movie Poster"
             android:scaleType="centerCrop"
-            android:src=""
-
+            android:src="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
