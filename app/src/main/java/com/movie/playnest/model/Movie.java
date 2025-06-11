@@ -36,7 +36,6 @@ public class Movie extends BaseObservable{
     private String overview;
 
 
-
     @SerializedName("vote_average")
     @Expose
     private Double voteAverage;
@@ -77,8 +76,7 @@ public class Movie extends BaseObservable{
         return overview;
     }
 
-    public void setOverview(String overview)
-    {
+    public void setOverview(String overview) {
         this.overview = overview;
         notifyPropertyChanged(BR.overview);
     }
@@ -123,8 +121,6 @@ public class Movie extends BaseObservable{
         this.voteAverage = voteAverage;
         notifyPropertyChanged(BR.voteAverage);
     }
-
-
 
 
 

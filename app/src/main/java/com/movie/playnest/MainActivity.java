@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         private ArrayList<Movie> movies;
         private RecyclerView recyclerView;
         private MovieAdapter movieAdapter;
-        private SwipeRefreshLayout swipeRefreshLayout;
+//        private SwipeRefreshLayout swipeRefreshLayout;
         private ActivityMainBinding binding;
         private MainActivityViewModel viewModel;
 
@@ -52,14 +52,14 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-            swipeRefreshLayout = binding.swipeLayout;
-            swipeRefreshLayout.setColorSchemeResources(R.color.black);
-            swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-                @Override
-                public void onRefresh() {
-                    getPopularMovies();
-                }
-            });
+//            swipeRefreshLayout = binding.swipeLayout;
+//            swipeRefreshLayout.setColorSchemeResources(R.color.black);
+//            swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+//                @Override
+//                public void onRefresh() {
+//                    getPopularMovies();
+//                }
+//            });
 
 
         }
@@ -94,4 +94,4 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
-    }
+}
